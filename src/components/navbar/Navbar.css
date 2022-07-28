@@ -1,0 +1,33 @@
+.navbar-container{
+    background-color: rgb(3, 133, 126);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.title{
+    color: white;
+    width: 20%;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.nav-buttons{
+    width: 30%;
+    height: 50px;
+    color: white;
+    align-content: center;
+
+}
+.nav-buttons ul{
+display: flex;
+justify-content: space-evenly;
+ list-style-type: none;
+ font-size: 13px;
+ 
+}

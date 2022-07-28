@@ -1,0 +1,39 @@
+.home-container{
+    background-color: rgb(3, 133, 126);
+   color: white;
+
+}
+.emoji{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+    margin-left: 80px;
+}
+.emoji h1{
+    margin: 0px;
+}
+h5{
+    margin: 0px;
+}
+h6{
+    margin: 0px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-left: 100px;
+
+}
+.image{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+.image img{
+    height: 350px;
+    width: 600px;
+}
+.Info {
+   margin-left: 30px;
+}
