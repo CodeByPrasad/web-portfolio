@@ -1,0 +1,70 @@
+.about-container{
+
+color: white;
+margin-bottom: 60px;
+}
+.imagepic img{
+    width: 220px;
+    height: 250px;
+    border-radius: 50%;
+    /* margin: 10px; */
+    margin-top: 20px;
+   
+}
+.imagepic{
+justify-content: center;
+display: flex;
+}
+.skill-container 
+{
+    border: 1px solid;
+    padding: 20px;
+    margin:50px;
+    background-color: rgb(1, 57, 57);
+}
+
+.experience-container
+{
+    border: 1px solid;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(1, 57, 57);
+}
+h3{
+    margin-left: 50px;
+
+}
+.experience-container2
+{
+    border: 1px solid;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(1, 57, 57);
+}
+
+.media-contact{
+    
+       
+        padding: 25px 50px;
+      justify-content: center;
+      display: flex;
+}
+a{
+    margin: 0.7rem;
+   
+}
+a.github-social {
+    color: black;
+  }
+  
+  a.facebook-social  {
+    color: black;
+  }
+  
+  a.twitter-social {
+    color: black;
+  }
+  
+  a.instagram-social {
+    color: black;
+  }

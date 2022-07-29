@@ -6,7 +6,7 @@ import Navbar from './components/navbar/Navbar'
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Footer from './components/footer/Footer'
-
+import './App.css'
 function App() {
   return (
     <div className="App">

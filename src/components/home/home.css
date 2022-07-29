@@ -1,13 +1,13 @@
 .home-container{
-    background-color: rgb(3, 133, 126);
+    /* background-color: rgb(3, 133, 126); */
    color: white;
-
+margin-bottom: 60px;
 }
 .emoji{
   font-size: 30px;
   display: flex;
   align-items: center;
-    margin-left: 80px;
+    margin-left: 200px;
 }
 .emoji h1{
     margin: 0px;
@@ -22,18 +22,21 @@ h6{
     display: flex;
     align-items: center;
     margin: 0px;
-    margin-left: 100px;
+    margin-left: 200px;
+
 
 }
 .image{
     display: flex;
-    margin-left: 100px;
+    margin-right: 100px;
+    margin-left: 200px;
     align-items: center;
 }
 .image img{
-    height: 350px;
-    width: 600px;
+    height: 320px;
+    width: 500px;
 }
 .Info {
    margin-left: 30px;
+   margin-right: 120px;
 }

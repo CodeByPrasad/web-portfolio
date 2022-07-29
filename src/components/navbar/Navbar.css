@@ -20,7 +20,7 @@
 .nav-buttons{
     width: 30%;
     height: 50px;
-    color: white;
+
     align-content: center;
 
 }
@@ -29,5 +29,8 @@ display: flex;
 justify-content: space-evenly;
  list-style-type: none;
  font-size: 13px;
- 
+}
+.nav-buttons a{
+    text-decoration: none;
+    color: white;
 }

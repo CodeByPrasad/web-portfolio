@@ -8,7 +8,7 @@ function navbar() {
 
     <div className='navbar-container'>
       <div className='title'>
-        <h4>Software Engineer</h4>
+        <h3>Software Engineer</h3>
       </div>
       <div className='nav-buttons'>
         <nav >

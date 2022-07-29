@@ -1,6 +1,9 @@
 import React from 'react'
 import './home.css'
+// import Typical from 'react-typical'
+
 function Home() {
+  
   return (
     <div className='home-container'>
       <div className='emoji'><h1> 👋</h1>
@@ -9,14 +12,22 @@ function Home() {
         <h6>It's nice to meet you😊</h6></div>
       </div>
       <div className='intro'>
-        <h3>I'm
-        <span>Prasad Suryawanshi,</span>
-        <span>a Software developer,</span>
+      <div id="type-css">
+</div> 
+        <h3>I'm &nbsp;
+
+        <span>Prasad Suryawanshi ,</span>
+        <span>a Software Developer ,</span>
         </h3>
       </div>
-     
+      {/* <Typical
+        steps={['Hello', 1000, 'Hello world!', 2000]}
+        loop={Infinity}
+        wrapper="p"
+      /> */}
+
       <div className='image'>
-        <img src={require('./prasad.jpg')} alt='my image' />
+        <img src={require('./prasad.jpg')} alt='profilePic' />
       
          <div className='Info'>
         <p>I am a Front-end Developer-cum-tech enthusiast. hands-on experience in UI
