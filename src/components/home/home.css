@@ -7,7 +7,7 @@ margin-bottom: 60px;
   font-size: 30px;
   display: flex;
   align-items: center;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 .emoji h1{
     margin: 0px;
@@ -22,14 +22,16 @@ h6{
     display: flex;
     align-items: center;
     margin: 0px;
-    margin-left: 200px;
+    margin-left: 30px;
 
 
 }
 .image{
     display: flex;
     margin-right: 100px;
-    margin-left: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+    /* justify-content: center; */
     align-items: center;
 }
 .image img{
@@ -37,6 +39,29 @@ h6{
     width: 500px;
 }
 .Info {
+    /* min-height: auto; */
    margin-left: 30px;
-   margin-right: 120px;
+   /* width: 500px; */
+   /* max-height: 40px; */
+   /* margin-right: 120px; */
+}
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .image {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+    }
+    .image img{
+        height: 200px;
+        width: 300px;
+    }
+    .Info {
+        /* margin-left: 0; */
+        margin: 0;
+        margin-top: 20px; /* Add some space between image and text in mobile view */
+        /* width: 100%; */
+        /* text-align: center; Center text in mobile view */
+    }
 }
