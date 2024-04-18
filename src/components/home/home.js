@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-// import Typical from 'react-typical'
 
 function Home() {
   
@@ -20,11 +19,6 @@ function Home() {
         <span>a Software Developer ,</span>
         </h3>
       </div>
-      {/* <Typical
-        steps={['Hello', 1000, 'Hello world!', 2000]}
-        loop={Infinity}
-        wrapper="p"
-      /> */}
 
       <div className='image'>
         <img src={require('./prasad.jpg')} alt='profilePic' />
@@ -36,7 +30,7 @@ function Home() {
 
           I am also very eager to pick coding styles and standards worked on by fellow
           developers and re-invent them to suit my use. I have expertise on different Javascript
-          frameworks such as Angular 2+ , React JS ,  Vue JS , React Native etc.<br/><br/>
+          frameworks such as React JS, Next Js, React Native etc.<br/><br/>
 
           I have excellent CSS3, HTML5, Javascript and Typescript skills as well.My favorite
           pastime is solving word problems and taking up coding challenges on various platforms

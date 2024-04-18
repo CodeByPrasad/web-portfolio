@@ -20,50 +20,43 @@ function About() {
         <div className='skill-container'> 
         
            <div>HTML5
-           <Progress  percent={98} status='success' /></div>
+           <Progress  percent={90} status='success' /></div>
            <div>css3/scss
-           <Progress percent={98} status='success' /></div>
-           <div>Typescript/Javascript
-           <Progress percent={98} status='success' /></div>
-           <div>Stencil Js
-           <Progress percent={78} status='success' /></div>
-           <div>Vue Js
-           <Progress percent={85} status='success' /></div>
+           <Progress percent={90} status='success' /></div>
+           <div>Javascript
+           <Progress percent={75} status='success' /></div>
+          
+           <div>Next Js
+           <Progress percent={70} status='success' /></div>
            <div>ReactJs
-           <Progress percent={90} status='success' /></div>
-           <div>Angular 2+
-           <Progress percent={90} status='success' /></div>
+           <Progress percent={85} status='success' /></div>
+           
            <div>React Native
            <Progress percent={65} status='success' /></div>
-           <div>Svelte
-           <Progress percent={60} status='success' /></div>
+          
 </div>
            <h3>Experience</h3>
 
            <div className='experience-container'>
             <div>
-                <h4>Greytip software pvt ltd</h4>
-                <p>Greytip Software was founded with the aim of providing relevant and cost-effective
-                   software solutions in the HR domain to companies worldwide. Since 2009, they’ve done
-                    that with greytHR - India’s 1st ever fully integrated cloud-based HR & Payroll
-                     software. It’s powerful automation options and cost-effective nature make greytHR
-                      a preferred choice of 9000+ brands around the world, including industry leaders
-                       like Chai Point, Volvo, Teamlease, and Hexaware.</p>
-                       <label>Role:</label> Senior Software Engineer &nbsp;&nbsp;&nbsp;
-                       <label>Location:</label> Banglore
+                <h4>T.K. Online services pvt ltd</h4>
+                <p>T.K. Online Services Pvt Ltd is a dynamic and innovative technology company dedicated to providing cutting-edge solutions in the digital landscape. Established with a vision to revolutionize the online services industry.
+                   At T.K. Online Services Pvt Ltd, developing encompassing web development, mobile application development, e-commerce solutions, digital marketing,etc.</p>
+                       <label>Role:</label> Associate Software Engineer &nbsp;&nbsp;&nbsp;
+                       <label>Location:</label> Pune
             </div>
            </div>
            <div className='experience-container2'>
             <div>
-                <h4>Bridgelabz solution pvt ltd</h4>
-                <p>Bridgelab are a "Maker" lab where fresh engineering talent is made industry-ready
-                   by 100% experiential learning. the engineers are skilled in technology by working
-                    on problem statements and eventually made industry-ready. there approach is unique 
-                    and they are focused on solving employability in the engineering domain.
-
+                <h4>DUTS Dream unicorn tech Solution</h4>
+                <p>As a software development intern at DUTS, you will have the opportunity to work alongside experienced professionals and contribute to meaningful projects that make a difference. Throughout the internship program, you will gain valuable
+                   insights into the software development lifecycle, enhance your technical skills, and collaborate with cross-functional teams to solve complex challenges.
+                   Participate in the design, development, and testing of software applications.
+ Collaborate with team members to brainstorm ideas and solve technical problems.
+ Write clean, efficient, and maintainable code following best practices and coding standards.
 </p>
-                       <label>Role:</label> Product Engineer
-                       <label>Location:</label> Mumbai
+                       <label>Role:</label> Software developer Intern &nbsp;&nbsp;&nbsp;
+                       <label>Location:</label> Pune
             </div>
            </div>
            <div className='media-contact'>
