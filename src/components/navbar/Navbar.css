@@ -1,13 +1,21 @@
 .navbar-container{
     background-color: rgb(3, 133, 126);
     height: 50px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
 }
 
 
-
+@media (max-width: 768px) {
+    .navbar-container{
+        background-color: rgb(3, 133, 126);
+        height: 50px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 .title{
     color: white;
     width: 20%;
